@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Filmes</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Busca de Filmes</h1>
+        <!--Placeholder: Dica do tipo da informação esperada pelo usuário-->
+        <input type="text" id="movieInput" placeholder="Digite o nome do filme">
+        <button onclick="searchMovie()">Pesquisar</button>
+        <!-- <p>Titulo do Filme</p> -->
+        <div id="movieResult" class="result-container">            
+            <img src="img/EmojiTriste-removebg-preview.png" 
+            alt="Carinha Triste" id="sadFace" style="display: none;">
+            <div id="movieDetails">
+                <h2>${data.Title}</h2>
+                <p><strong>Ano:</strong> ${data.Year}</p>
+                <p><strong>Gênero:</strong> ${data.Genre}</p>
+                <p><strong>Duração:</strong> ${data.Runtime}</p>
+                <p><strong>Descrição/Sinopse:</strong> ${data.Plot}</p>
+            </div>
+            <p id="errorMessage"></p>         
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+    <footer>
+        <p>Desenvolvido por: Jovanio Oliveira</p>
+    </footer>
+    
+</body>
+
+</html>

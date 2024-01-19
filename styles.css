@@ -1,0 +1,60 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1C1C1C;
+    margin: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #CAB9B9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.result-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sadFace {
+    width: 800px;
+    /* background-color: yellow; */
+}
+
+#movieDetails {
+    display: none;
+    /* color: red; */
+}
+
+#movieDetails p strong{
+    color: red;
+    text-align: left;
+}
+
+.container button{
+    border-radius: 5px;
+    height: 30px
+}
+
+.container input{
+    border-radius: 5px;
+    width: 26%;
+    height: 25px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
