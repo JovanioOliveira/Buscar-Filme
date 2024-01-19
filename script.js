@@ -1,4 +1,4 @@
-const apiKey = '790af7bc'; // Apenas a chave da API, não a URL completa
+const apiKey = ''; // Apenas a chave da API, não a URL completa
 
 function searchMovie() {
     const movieInput = document.getElementById('movieInput').value;
