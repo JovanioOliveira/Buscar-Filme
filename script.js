@@ -1,4 +1,4 @@
-const apiKey = ''; // Apenas a chave da API, não a URL completa
+const apiKey = ''; // Apenas a chave da API, não a URL completa, criar chave no site: https://www.omdbapi.com/
 
 function searchMovie() {
     const movieInput = document.getElementById('movieInput').value;
